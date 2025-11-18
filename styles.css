@@ -186,7 +186,7 @@ section{padding: calc(var(--gap) / 2) 0; position:relative}
 
 /* skeleton / blur placeholder */
 .skeleton{
-  position:absolute;inset:0;background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));backdrop-filter: blur(6px);transition:opacity .35s;opacity:1;
+  position:absolute;inset:0;background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));backdrop-filter: blur(none);transition:opacity .35s;opacity:1;
 }
 .img-wrap.loaded .skeleton{opacity:0;pointer-events:none}
 
