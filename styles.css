@@ -78,6 +78,7 @@ body{
   backdrop-filter: blur(var(--glass-blur)) saturate(1.05);
   -webkit-backdrop-filter: blur(var(--glass-blur));
 }
+
 .logo{
   font-family:var(--ff-serif);
   letter-spacing:0.02em;
